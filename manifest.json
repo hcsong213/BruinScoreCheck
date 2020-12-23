@@ -1,0 +1,13 @@
+{
+  "name": "Bruin Score Check",
+  "version": "0.1",
+  "description": "Calculates your total unweighted grade on MyUcla",
+  "content_scripts": [
+    {
+      "matches": ["*://be.my.ucla.edu/IWE/mygrades.aspx"],
+      "js": ["summate.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}
