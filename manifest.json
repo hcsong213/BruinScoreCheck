@@ -9,5 +9,11 @@
       "run_at": "document_end"
     }
   ],
+  "icons": {
+    "16": "images/bruinicon16.png",
+    "32": "images/bruinicon32.png",
+    "64": "images/bruinicon64.png",
+    "128": "images/bruinicon128.png"
+  },
   "manifest_version": 2
 }

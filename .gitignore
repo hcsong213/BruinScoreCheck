@@ -1,2 +1,6 @@
 # Test files for debugging
 /debug
+
+# Files for exporting as Chrome Extension
+/export
+export.*
