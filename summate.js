@@ -36,7 +36,6 @@ function listener() {
 /**
  * @author Haechan Song
  */
-console.log("Begin summate.js");
 //The following if statement checks if a final grade has already been
 //released. If so, it will not calculate an unofficial grade.
 function summate() {
@@ -54,12 +53,10 @@ function summate() {
       cell = currentRow.firstElementChild.nextElementSibling;
       if (cell) {
         parseAndSum(cell.innerHTML, fraction);
-        console.log("fraction: ", fraction);
       }
       //"incrememnt" currentRow to the row below it
       currentRow = currentRow.nextElementSibling;
     }
-    console.log("At summate.js - Final tally: ", fraction);
 
     //append the info
     cell.appendChild(document.createElement("br"));
